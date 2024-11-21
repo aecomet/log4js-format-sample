@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc -p tsconfig.json -w",
-    "start": "tsc -p tsconfig.json"
+    "build": "tsc -p tsconfig.json"
   },
   "keywords": [
     "sample app",
