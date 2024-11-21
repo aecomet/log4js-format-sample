@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    /* build option */
+    "outDir": "./dist",
+    "target": "ES2023",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "removeComments": true,
+
+    /* Generates corresponding '.map' file. */
+    "sourceMap": true,
+
+    /* Enable strict options. */
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+
+    /* Imports support */
+    "esModuleInterop": true,
+
+    /* Optimizations for build */
+    "skipLibCheck": true,
+    "incremental": true,
+    "noEmitOnError": true,
+
+    /* resolve options */
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["src/*"]
+    }
+  }
+}

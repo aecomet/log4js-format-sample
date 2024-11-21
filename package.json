@@ -1,0 +1,23 @@
+{
+  "name": "log4js-format-sample",
+  "version": "1.0.0",
+  "description": "A sample app that formats logs to JSON",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json -w",
+    "start": "tsc -p tsconfig.json"
+  },
+  "keywords": [
+    "sample app",
+    "log4js"
+  ],
+  "author": "aecomet",
+  "license": "MIT",
+  "dependencies": {
+    "log4js": "^6.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.1",
+    "typescript": "^5.6.3"
+  }
+}
